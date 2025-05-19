@@ -20,7 +20,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "📂 Changing directory to HydraDAEMON..."
-cd HydraDAEMON || { echo "❌ Failed to change directory to HydraDAEMON."; exit 1; }
+cd hydra-daemon || { echo "❌ Failed to change directory to HydraDAEMON."; exit 1; }
 
 echo "📦 Installing dependencies..."
 npm install
